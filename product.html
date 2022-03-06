@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 06 march</title>
+    <link rel="stylesheet" href="./product.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+          <div class="product-box">
+            <div class="all-images">
+              <div class="small-images">
+                <img src="./img/1.webp" onclick="clickimg(this)" />
+                <img src="./img/2.webp" onclick="clickimg(this)" />
+                <img src="./img/3.webp" onclick="clickimg(this)" alt="" />
+                <img src="./img/4.webp" onclick="clickimg(this)" />
+                <img src="./img/1.webp" onclick="clickimg(this)" />
+              </div>
+              <div class="main-images">
+                <img src="./img/3.webp" id="imagebox" />
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <div class="content">
+              <p class="brand">Brand : Apple</p>
+              <h2>APPLE iPhone 12 (White, 64 GB)</h2>
+              <div class="review">
+                <span>(4.6)</span>
+                <span class="fa fa-star"></span>
+              </div>
+              <div class="price-box">
+                <p class="price">&#8377; 77,990</p>
+                <strike>&#8377; 89,990</strike>
+              </div>
+              <p>
+                Size :
+                <select name="size">
+                  <option value="select-color">select colour</option>
+                  <option value="black">Black</option>
+                  <option value="blue">Blue</option>
+                  <option value="green">green</option>
+                  <option value="purple">purple</option>
+                </select>
+              </p>
+  
+              <p>Quantity <input type="text" value="1" /></p>
+              <button>
+                <span class="fa fa-shopping-cart"></span>
+                Add to charset
+              </button>
+              <button class="buy">
+                <span class="fa fa-shopping-cart"></span>
+                Buy now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
